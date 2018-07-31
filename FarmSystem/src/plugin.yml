@@ -1,0 +1,58 @@
+name: FarmSystem
+version: 1.2
+author: Butzlabben
+authors: [Butzlabben, Jubeki]
+main: de.butzlabben.farm.FarmSystem
+
+commands:
+  farm:
+    description: Enter farm world
+    usage: /farm 
+  farm nether:
+    description: Enter farm nether
+    usage: /farm nether 
+  farm leave:
+    description: Leave farm world/nether
+    usage: /farm leave
+  farm generate nether:
+    description: Generate a new farm nether 
+    usage: /farm generate nether
+  farm generate world:
+    description: Generate a new farm world
+    usage: /farm generate world
+  farm help:
+    description: Show help for farm-commands
+    usage: /farm help
+  
+    
+permissions:
+  farm.*:
+    default: op
+    children:
+      farm.use.*: true
+      farm.generate.*: true
+  farm.generate.*:
+    default: op
+    children:
+      farm.generate.world: true
+      farm.generate.nether: true
+  farm.generate.world:
+    default: op
+  farm.generate.nether:
+    default: op
+  farm.use.*:
+    default: true
+    children:
+      farm.use.leave: true
+      farm.use.world: true
+      farm.use.nether: true
+      farm.help: true
+  farm.use.leave:
+    default: true
+  farm.use.nether:
+    default: true
+  farm.use.world:
+    default: true
+  farm.help:
+    default: true
+   

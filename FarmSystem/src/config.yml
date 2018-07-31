@@ -1,0 +1,44 @@
+##############
+#            #
+# FarmSystem #
+#            #
+##############
+
+# When the worlds will refresh
+# 0 = not periodical
+# >0 = period in hours
+refresh: 0
+
+# If the worlds should be refreshed at startup of the plugin
+refresh_at_start_up: true
+
+# which template should be choosen
+# worldfiles in plugins/FarmSystem/templates
+# if it is empty, a new one will be generated
+template: ''
+template_nether: ''
+
+# Seed for normal farm world
+seed: 0
+
+# Seed for nether farm world
+seed_nether: 0
+
+# Name for farm world
+farmworld_name: farmworld
+
+#Name for nether farm world
+farmworld_nether_name: farmworld_nether
+
+# worldgenerator settings, if no templates are given
+# possible settings:
+# flat, amplified, large_biome, default
+worldgenerator: default
+
+# this is a fallback-spawnpoint
+# for some rare cases
+fallback:
+  world: world
+  x: 0 
+  y: 50
+  z: 0
