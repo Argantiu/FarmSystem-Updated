@@ -1,4 +1,4 @@
-package de.butzlabben.farm;
+package de.crazycloudcraft;
 
 import java.io.File;
 import java.io.IOException;
@@ -174,7 +174,7 @@ public class FarmCreator {
 		FarmSystem.nfarmspawn = teleporter.getRandomLoc();
 		w.setSpawnLocation(FarmSystem.nfarmspawn.getBlockX(), FarmSystem.nfarmspawn.getBlockY(), FarmSystem.nfarmspawn.getBlockZ());
 		int x = FarmSystem.nfarmspawn.getBlockX();
-		int y = FarmSystem.nfarmspawn.getBlockY() - 1;
+		int y = FarmSystem.nfarmspawn.getBlockY() - 64;
 		int z = FarmSystem.nfarmspawn.getBlockZ();
 		Block b = w.getBlockAt(x, y, z);
 		b = w.getBlockAt(x, y, z);
