@@ -1,8 +1,8 @@
 name: FarmSystem
-version: 1.2
+version: 1.5
 author: Butzlabben
-authors: [Butzlabben, Jubeki]
-main: de.butzlabben.farm.FarmSystem
+authors: [Butzlabben, Jubeki, CrazyCloudCraft]
+main: de.crazycloudcraft.FarmSystem
 
 commands:
   farm:
