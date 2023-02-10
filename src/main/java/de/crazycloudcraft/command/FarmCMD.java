@@ -1,22 +1,22 @@
-package de.butzlabben.farm.command;
+package de.crazycloudcraft.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 
-import de.butzlabben.farm.MessageConfig;
+import de.crazycloudcraft.MessageConfig;
 
-public abstract class FarmCommand implements CommandExecutor {
+public abstract class FarmCMD implements CommandExecutor {
 
 	private final String permission;
 	private final boolean console;
 
-	public FarmCommand(String permission) {
+	public FarmCMD(String permission) {
 		this(permission, false);
 	}
 
-	public FarmCommand(String permission, boolean console) {
+	public FarmCMD(String permission, boolean console) {
 		this.console = console;
 		this.permission = permission;
 	}
