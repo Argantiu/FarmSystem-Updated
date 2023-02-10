@@ -7,11 +7,11 @@ import de.butzlabben.farm.FarmCreator;
 import de.butzlabben.farm.FarmSystem;
 import de.butzlabben.farm.MessageConfig;
 
-public class FarmGenerateNetherCommand extends FarmCommand {
+public class FarmGenerateNetherCMD extends FarmCMD {
 	
-	public final static FarmGenerateNetherCommand instance = new FarmGenerateNetherCommand();
+	public final static FarmGenerateNetherCMD instance = new FarmGenerateNetherCMD();
 
-	private FarmGenerateNetherCommand() {
+	private FarmGenerateNetherCMD() {
 		super("farm.generate.nether", true);
 	}
 
