@@ -1,4 +1,4 @@
-package de.butzlabben.farm;
+package de.crazycloudcraft.main;
 
 import java.io.File;
 import java.util.HashMap;
@@ -10,8 +10,8 @@ import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import de.butzlabben.farm.command.FarmWorldCommand;
-import de.butzlabben.farm.listeners.PlayerLeaveListener;
+import de.crazycloudcraft.command.FarmWorldCMD;
+import de.crazycloudcraft.listeners.PlayerLeaveListener;
 
 public class FarmSystem extends JavaPlugin {
 
