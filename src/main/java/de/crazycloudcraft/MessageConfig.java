@@ -1,4 +1,4 @@
-package de.butzlabben.farm;
+package de.crazycloudcraft;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,29 +28,29 @@ public class MessageConfig {
 		
 		cfg.options().copyDefaults(true);
 		
-		cfg.addDefault("no_permission", "§cYou don't have permissions!");
+		cfg.addDefault("no_permission", "Â§cYou don't have permissions!");
 		
-		cfg.addDefault("wrong_usage", "§cWrong usage: For more information do §e/farm help");
+		cfg.addDefault("wrong_usage", "Â§cWrong usage: For more information do Â§e/farm help");
 		
-		cfg.addDefault("left_farmworld", "§aYou left the farm world!");
+		cfg.addDefault("left_farmworld", "Â§aYou left the farm world!");
 		
-		cfg.addDefault("in_no_farmworld", "§cYou are in no farm world");
+		cfg.addDefault("in_no_farmworld", "Â§cYou are in no farm world");
 		
-		cfg.addDefault("already_farmworld", "§cYou are already in farmworld!");
-		cfg.addDefault("still_creating_world", "§cThe farmworld is still creating");
-		cfg.addDefault("world_not_created", "§cWorld is not created!");
-		cfg.addDefault("teleported_world", "§aYou were teleported to farmworld!");
+		cfg.addDefault("already_farmworld", "Â§cYou are already in farmworld!");
+		cfg.addDefault("still_creating_world", "Â§cThe farmworld is still creating");
+		cfg.addDefault("world_not_created", "Â§cWorld is not created!");
+		cfg.addDefault("teleported_world", "Â§aYou were teleported to farmworld!");
 		
-		cfg.addDefault("already_farmnether", "§cYou are already in farm nether!");
-		cfg.addDefault("still_creating_nether", "§cThe farm nether is still creating");
-		cfg.addDefault("nether_not_created", "§cNether is not created!");
-		cfg.addDefault("teleported_nether", "§aYou were teleported to farm nether!");
+		cfg.addDefault("already_farmnether", "Â§cYou are already in farm nether!");
+		cfg.addDefault("still_creating_nether", "Â§cThe farm nether is still creating");
+		cfg.addDefault("nether_not_created", "Â§cNether is not created!");
+		cfg.addDefault("teleported_nether", "Â§aYou were teleported to farm nether!");
 		
-		cfg.addDefault("generating_world", "§aGenerating world, this may take a while...");
-		cfg.addDefault("generated_world", "§aA new farm world has been generated!");
+		cfg.addDefault("generating_world", "Â§aGenerating world, this may take a while...");
+		cfg.addDefault("generated_world", "Â§aA new farm world has been generated!");
 		
-		cfg.addDefault("generating_nether", "§aGenerating nether, this may take a while...");
-		cfg.addDefault("generated_nether", "§aA new farm nether has been generated!");
+		cfg.addDefault("generating_nether", "Â§aGenerating nether, this may take a while...");
+		cfg.addDefault("generated_nether", "Â§aA new farm nether has been generated!");
 		
 		try {
 			cfg.save(file);
