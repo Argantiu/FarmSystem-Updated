@@ -1,15 +1,15 @@
-package de.butzlabben.farm.command;
+package de.crazycloudcraft.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import de.butzlabben.farm.FarmCreator;
-import de.butzlabben.farm.FarmSystem;
-import de.butzlabben.farm.MessageConfig;
+import de.crazycloudcraft.FarmCreator;
+import de.crazycloudcraft.main.FarmSystem;
+import de.crazycloudcraft.MessageConfig;
 
-public class FarmWorldCommand implements CommandExecutor {
+public class FarmWorldCMD implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender cs, Command cmd, String label, String[] args) {
