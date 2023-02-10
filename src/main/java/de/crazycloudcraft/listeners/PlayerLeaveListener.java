@@ -1,4 +1,4 @@
-package de.butzlabben.farm.listeners;
+package de.crazycloudcraft.listeners;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
 
-import de.butzlabben.farm.FarmSystem;
+import de.crazycloudcraft.main.FarmSystem;
 
 public class PlayerLeaveListener implements Listener {
 
