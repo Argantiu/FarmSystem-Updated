@@ -1,13 +1,13 @@
-package de.butzlabben.farm.command;
+package de.crazycloudcraft.command;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;
 
-public class FarmHelpCommand extends FarmCommand {
+public class FarmHelpCMD extends FarmCMD {
 
-	public final static FarmHelpCommand instance = new FarmHelpCommand();
+	public final static FarmHelpCMD instance = new FarmHelpCMD();
 
-	private FarmHelpCommand() {
+	private FarmHelpCMD() {
 		super("farm.help", true);
 	}
 
