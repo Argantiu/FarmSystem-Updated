@@ -1,4 +1,4 @@
-package de.butzlabben.farm;
+package de.crazycloudcraft.config;
 
 import java.io.File;
 import java.io.IOException;
