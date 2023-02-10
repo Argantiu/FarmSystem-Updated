@@ -3,9 +3,9 @@ package de.crazycloudcraft.command;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 
-import de.butzlabben.farm.FarmCreator;
-import de.butzlabben.farm.FarmSystem;
-import de.butzlabben.farm.MessageConfig;
+import de.crazycloudcraft.FarmCreator;
+import de.crazycloudcraft.main.FarmSystem;
+import de.crazycloudcraft.MessageConfig;
 
 public class FarmGenerateNetherCMD extends FarmCMD {
 	
