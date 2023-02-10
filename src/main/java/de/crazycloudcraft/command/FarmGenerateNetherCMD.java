@@ -1,4 +1,4 @@
-package de.butzlabben.farm.command;
+package de.crazycloudcraft.command;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
