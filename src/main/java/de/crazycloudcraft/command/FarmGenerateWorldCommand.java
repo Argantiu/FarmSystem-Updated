@@ -1,17 +1,17 @@
-package de.butzlabben.farm.command;
+package de.crazycloudcraft.command;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 
-import de.butzlabben.farm.FarmCreator;
-import de.butzlabben.farm.FarmSystem;
-import de.butzlabben.farm.MessageConfig;
+import de.crazycloudcraft.FarmCreator;
+import de.crazycloudcraft.main.FarmSystem;
+import de.crazycloudcraft.MessageConfig;
 
-public class FarmGenerateWorldCommand extends FarmCommand {
+public class FarmGenerateWorldCMD extends FarmCMD {
 	
-	public final static FarmGenerateWorldCommand instance = new FarmGenerateWorldCommand();
+	public final static FarmGenerateWorldCMD instance = new FarmGenerateWorldCMD();
 
-	public FarmGenerateWorldCommand() {
+	public FarmGenerateWorldCMD() {
 		super("farm.generate.world", true);
 	}
 
