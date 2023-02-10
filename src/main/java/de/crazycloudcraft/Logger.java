@@ -1,14 +1,14 @@
-package de.butzlabben.farm;
+package de.crazycloudcraft;
 
 import org.bukkit.Bukkit;
 
 public enum Logger {
 
-	NORMAL("§8[§7FarmInfo§8] §7"),
-	SUCCESS("§8[§aFarmSuccess§8] §a"),
-	WARN("§8[§eFarmWarn§8] §e"),
-	ERROR("§8[§cFarmError§8] §c"),
-	DEBUG("§8[§bFarmgDebug§8] §b");
+	NORMAL("Â§8[Â§7FarmInfoÂ§8] Â§7"),
+	SUCCESS("Â§8[Â§aFarmSuccessÂ§8] Â§a"),
+	WARN("Â§8[Â§eFarmWarnÂ§8] Â§e"),
+	ERROR("Â§8[Â§cFarmErrorÂ§8] Â§c"),
+	DEBUG("Â§8[Â§bFarmgDebugÂ§8] Â§b");
 	
 	private final String prefix;
 	
