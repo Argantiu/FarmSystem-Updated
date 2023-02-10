@@ -59,7 +59,7 @@ public class FarmSystem extends JavaPlugin {
 		}
 
 		Bukkit.getPluginManager().registerEvents(new PlayerLeaveListener(), this);
-		getCommand("farm").setExecutor(new FarmWorldCommand());
+		getCommand("farm").setExecutor(new FarmWorldCMD());
 
 		if (Config.getFallbackLocation() == null)
 			Logger.WARN.log("Fallback-location was not set! I recommend to set it!");
