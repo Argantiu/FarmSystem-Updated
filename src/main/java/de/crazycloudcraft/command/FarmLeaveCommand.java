@@ -1,17 +1,17 @@
-package de.butzlabben.farm.command;
+package de.crazycloudcraft.command;
 
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import de.butzlabben.farm.FarmSystem;
-import de.butzlabben.farm.MessageConfig;
+import de.crazycloudcraft.main.FarmSystem;
+import de.crazycloudcraft.MessageConfig;
 
-public class FarmLeaveCommand extends FarmCommand {
+public class FarmLeaveCMD extends FarmCMD {
 	
-	public final static FarmLeaveCommand instance = new FarmLeaveCommand();
+	public final static FarmLeaveCMD instance = new FarmLeaveCMD();
 	
-	private FarmLeaveCommand() {
+	private FarmLeaveCMD() {
 		super("farm.use.leave");
 	}
 
