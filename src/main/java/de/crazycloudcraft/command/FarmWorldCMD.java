@@ -48,19 +48,19 @@ public class FarmWorldCMD implements CommandExecutor {
 			if (args.length == 1) {
 				args[0] = args[0].toLowerCase();
 				if (args[0].equals("nether")) {
-					return FarmNetherCommand.instance.onCommand(cs, cmd, label, args);
+					return FarmNetherCMD.instance.onCommand(cs, cmd, label, args);
 				} else if (args[0].equals("leave")) {
-					return FarmLeaveCommand.instance.onCommand(cs, cmd, label, args);
+					return FarmLeaveCMD.instance.onCommand(cs, cmd, label, args);
 				} else if (args[0].equals("help")) {
-					return FarmHelpCommand.instance.onCommand(cs, cmd, label, args);
+					return FarmHelpCMD.instance.onCommand(cs, cmd, label, args);
 				}
 			} else if (args.length == 2) {
 				if (args[0].toLowerCase().equals("generate")) {
 					args[1] = args[1].toLowerCase();
 					if (args[1].equals("world")) {
-						return FarmGenerateWorldCommand.instance.onCommand(cs, cmd, label, args);
+						return FarmGenerateWorldCMD.instance.onCommand(cs, cmd, label, args);
 					} else if (args[1].equals("nether")) {
-						return FarmGenerateNetherCommand.instance.onCommand(cs, cmd, label, args);
+						return FarmGenerateNetherCMD.instance.onCommand(cs, cmd, label, args);
 					}
 				}
 			}
