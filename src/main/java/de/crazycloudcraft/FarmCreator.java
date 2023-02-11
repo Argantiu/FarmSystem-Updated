@@ -14,8 +14,8 @@ import org.bukkit.block.Block;
 import org.bukkit.World.Environment;
 import org.bukkit.entity.Player;
 
-import de.crazycloudcraft.main.FarmSystem
-import de.crazycloudcraft.config.Config
+import de.crazycloudcraft.main.FarmSystem;
+import de.crazycloudcraft.config.Config;
 /**
  * @author Butzlabben
  * @since 2017
