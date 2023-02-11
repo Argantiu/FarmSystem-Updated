@@ -12,6 +12,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import de.crazycloudcraft.command.FarmWorldCMD;
 import de.crazycloudcraft.listeners.PlayerLeaveListener;
+import de.crazycloudcraft.Logger
+import de.crazycloudcraft.config.Config
 
 public class FarmSystem extends JavaPlugin {
 
