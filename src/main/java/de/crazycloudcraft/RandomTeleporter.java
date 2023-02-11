@@ -1,4 +1,4 @@
-package de.crazycloudcraft;
+package de.crazycloudcraft; //Of curse
 
 import java.util.Random;
 
