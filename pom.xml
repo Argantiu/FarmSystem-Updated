@@ -88,7 +88,6 @@
 		<artifactId>json-simple</artifactId>
 		<version>4.0.1</version>
 	</dependency>
-
         <dependency>
             <groupId>org.yaml</groupId>
             <artifactId>snakeyaml</artifactId>
