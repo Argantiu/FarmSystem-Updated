@@ -10,7 +10,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  java:
+  build:
 
     runs-on: ubuntu-latest
 
@@ -22,14 +22,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-  setup:
-     name: Grant execute permission to pom.xml
-     needs: java
+    - name: Grant execute permission to pom.xml
       run: |
           wget -q https://dlcdn.apache.org/maven/maven-3/3.9.0/binaries/apache-maven-3.9.0-bin.tar.gz
-          tar xzvf apache-maven-3.9.0-bin.tar.gz
+          tar xzvf apache-maven-3.9.0-bin.tar.gz >/dev/null 2>&1
           export PATH=./apache-maven-3.9.0/bin:$PATH
-  build:
-     name: Build with Maven
-     needs: [java, setup]
+    - name: Build with Maven
       run: mvn package --quiet --file pom.xml
