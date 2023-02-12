@@ -16,16 +16,16 @@ public class FarmHelpCMD extends FarmCMD {
 		if (cs instanceof ConsoleCommandSender == false && cs.hasPermission("farm.use.world")) {
 			cs.sendMessage("§6/farm §8- §7Enter farm world");
 		}
-		if (FarmLeaveCommand.instance.hasPermission(cs)) {
+		if (FarmLeaveCMD.instance.hasPermission(cs)) {
 			cs.sendMessage("§6/farm leave §8- §7Leave the farm world/nether");
 		}
-		if (FarmNetherCommand.instance.hasPermission(cs)) {
+		if (FarmNetherCMD.instance.hasPermission(cs)) {
 			cs.sendMessage("§6/farm nether §8- §7Enter farm nether");
 		}
-		if (FarmGenerateWorldCommand.instance.hasPermission(cs)) {
+		if (FarmGenerateWorldCMD.instance.hasPermission(cs)) {
 			cs.sendMessage("§6/farm generate world §8- §7Generate a new farm world");
 		}
-		if (FarmGenerateNetherCommand.instance.hasPermission(cs)) {
+		if (FarmGenerateNetherCMD.instance.hasPermission(cs)) {
 			cs.sendMessage("§6/farm generate nether §8- §7Generate a new farm nether");
 		}
 		cs.sendMessage("§6/farm help §8- §7Shows this help");
