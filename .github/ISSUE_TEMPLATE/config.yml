@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: FarmSystem Discord
+    url: https://discord.gg/WYz7Qck
+    about: Our support Discord, please ask questions and search support here.
+  - name: FarmSystem Wiki
+    url: https://github.com/Argantiu/WorldSystem/wiki
+    about: Take a look at the wiki page for instructions how to setup WorldSystem and use its commands.
