@@ -1,5 +1,5 @@
 # FarmSystem
-FarmSystem is Bukkit plugin which allows to create easy farmworlds for all users.
+FarmSystem is a plugin which allows to create farmworlds for all users very easy.
 
 Commands:
 - /farm
@@ -9,6 +9,3 @@ Commands:
 - /farm generate world
 - /farm generate nether
 
----
-
-Re-Edit ...
