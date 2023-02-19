@@ -1,4 +1,7 @@
-# FarmSystem
+<div align="center">
+<h2>
+FarmSystem
+</h2>
 FarmSystem is a plugin which allows to create farmworlds for all users very easy.
 
 Commands:
@@ -8,4 +11,4 @@ Commands:
 - /farm nether
 - /farm generate world
 - /farm generate nether
-
+</div>
